@@ -10,10 +10,10 @@ Our team is exploring logistic regression, random forest, and gradient boosting 
 
 ## My Contributions
 
-- Developed data preprocessing pipeline to clean and transform synthetic consumer loan data for credit risk modeling
-- Implemented feature engineering techniques, including categorical encoding, missing value imputation, and outlier handling, to prepare data for model training.
-- Evaluated features for potential data leakage, removing information unavailable at the time of loan decisions to support reliable model predictions.
-- Collaborated with team members to refine the preprocessing pipeline and establish a consistent workflow for training and evaluating machine learning models
+- Analyzed numerical and categorical features to identify missing values, rare categories, outliers, and skewed distributions in consumer loan data
+- Applied winsorization and logarithmic transformations to handle extreme financial values and reduce skewness in monetary features
+- Implemented one hot encoding for categorical variables, maintaining consistent features across training and validation datasets
+- Conducted exploratory data analysis (EDA) to examine feature correlations, identify redundant predictors, and compare default rates between thin-file and established credit applicants
 
 ## Tools
 
